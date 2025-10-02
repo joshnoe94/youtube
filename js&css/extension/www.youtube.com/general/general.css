@@ -146,6 +146,13 @@ html[it-pathname='/feed/trending'][it-remove-trending-shorts="true"]  ytd-reel-s
 	display: none !important
 }  */
 /*--------------------------------------------------------------
+# REMOVE LEFT MENU SHORTS
+--------------------------------------------------------------*/
+html[it-remove-left-menu-shorts="true"] ytd-guide-entry-renderer:has(a[title="Shorts"]) {
+	display: none !important;
+}
+
+/*--------------------------------------------------------------
 # YOUTUBE HOME PAGE
 --------------------------------------------------------------*/
 html[it-pathname='/'][it-youtube-home-page='search'] #body,

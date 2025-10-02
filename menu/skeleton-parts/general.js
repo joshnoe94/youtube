@@ -136,6 +136,10 @@ extension.skeleton.main.layers.section.general = {
 					collapse_of_subscription_sections: {
 						component: 'switch',
 						text: 'collapseOfSubscriptionSections'
+					},
+					remove_left_menu_shorts: {
+						component: 'switch',
+						text: 'removeLeftMenuShorts'
 					}
 				},
 				ads: {
